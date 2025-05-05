@@ -1,9 +1,11 @@
 import React, { useEffect, useRef } from "react";
 import { ProgrammerDesktop } from "./ProgrammerDesktop";
 import { useFrame } from "@react-three/fiber";
+import { useMediaQuery } from "react-responsive";
 
 const Desktop = () => {
   const desktopRef = useRef();
+  const isTablet = useMediaQuery({ query: "(min-width: 768px)" });
 
   useEffect(() => {
     if (desktopRef.current) {
@@ -20,7 +22,7 @@ const Desktop = () => {
   });
   return (
     <>
-      <group position={[2, -2, -2]} ref={desktopRef}>
+      <group position={[2, -2, isTablet ? -2 : -9]} ref={desktopRef}>
         <ProgrammerDesktop />
       </group>
     </>

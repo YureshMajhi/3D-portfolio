@@ -1,8 +1,30 @@
 import React from "react";
 import { words } from "./constants";
 import HeroExperience from "./components/HeroModals/HeroExperience";
+import { useGSAP } from "@gsap/react";
+import gsap from "gsap";
 
 const Hero = () => {
+  useGSAP(() => {
+    gsap.fromTo(
+      ".hero-text h1",
+      { opacity: 0, y: 50 },
+      { opacity: 1, y: 0, stagger: 0.2, duration: 1, ease: "back.in" }
+    );
+    gsap.fromTo(
+      ".info-text",
+      {
+        opacity: 0,
+        x: -500,
+      },
+      {
+        opacity: 1,
+        x: 0,
+        duration: 1,
+        ease: "back.in",
+      }
+    );
+  });
   return (
     <section id="hero" className="relative overflow-hidden text-white">
       <div className="absolute top-0 left-0 z-10">
@@ -33,7 +55,7 @@ const Hero = () => {
               <h1>into Real Projects</h1>
               <h1>One Hustle at a Time</h1>
             </div>
-            <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
+            <p className="info-text text-white-50 md:text-xl relative z-10 pointer-events-none">
               Hi, I'm Yuresh, a developer based in Nepal with a passion for code.
             </p>
           </div>

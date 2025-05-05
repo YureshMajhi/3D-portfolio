@@ -2,8 +2,11 @@ import { OrbitControls } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
 import * as THREE from "three";
 import Desktop from "./Desktop";
+import { useMediaQuery } from "react-responsive";
 
 const HeroExperience = () => {
+  const isTablet = useMediaQuery({ query: "(min-width: 768px)" });
+
   return (
     <>
       <Canvas>
@@ -18,6 +21,7 @@ const HeroExperience = () => {
           minDistance={3}
           minPolarAngle={Math.PI / 5}
           maxPolarAngle={Math.PI / 2}
+          enableZoom={isTablet}
         />
         <Desktop />
       </Canvas>
