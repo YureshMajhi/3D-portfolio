@@ -15,14 +15,14 @@ const Desktop = () => {
 
   useFrame(() => {
     if (desktopRef.current) {
-      if (desktopRef.current.rotation.y > 0) {
+      if (desktopRef.current.rotation.y > 0.3) {
         desktopRef.current.rotation.y -= 0.02;
       }
     }
   });
   return (
     <>
-      <group position={[2, -2, isTablet ? -2 : -9]} ref={desktopRef}>
+      <group position={[2, -2, isTablet ? -3 : -8]} ref={desktopRef}>
         <ProgrammerDesktop />
       </group>
     </>
