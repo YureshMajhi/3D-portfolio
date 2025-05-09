@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { ProgrammerDesktop } from "./ProgrammerDesktop";
 import { useFrame } from "@react-three/fiber";
 import { useMediaQuery } from "react-responsive";
@@ -7,16 +7,20 @@ const Desktop = () => {
   const desktopRef = useRef();
   const isTablet = useMediaQuery({ query: "(min-width: 768px)" });
 
-  useEffect(() => {
-    if (desktopRef.current) {
-      desktopRef.current.rotation.y = Math.PI / 2;
-    }
-  }, []);
+  const [direction, setDirection] = useState(1);
 
-  useFrame(() => {
+  useFrame((state, delta) => {
     if (desktopRef.current) {
-      if (desktopRef.current.rotation.y > 0.3) {
-        desktopRef.current.rotation.y -= 0.02;
+      desktopRef.current.rotation.x = 0.2;
+      desktopRef.current.rotation.y += direction * delta * 0.04;
+
+      const upperLimit = 0.2;
+      const lowerLimit = -0.2;
+
+      if (desktopRef.current.rotation.y >= upperLimit) {
+        setDirection(-1);
+      } else if (desktopRef.current.rotation.y <= lowerLimit) {
+        setDirection(1);
       }
     }
   });

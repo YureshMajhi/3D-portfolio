@@ -11,7 +11,7 @@ const words = [
 const counterItems = [
   { value: 4, suffix: "+", label: "Months of Practical Experience" },
   { value: 4, suffix: "+", label: "Completed Projects During Internship" },
-  { value: 1, suffix: "", label: "Company Worked With (Paisa Experience Pvt. Ltd.)" },
+  { value: 2, suffix: "", label: "Company Worked With (Paisa Experience Pvt. Ltd.)" },
   { value: 100, suffix: "%", label: "Commitment to Learning & Growth" },
 ];
 
