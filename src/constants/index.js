@@ -22,4 +22,51 @@ const navLinks = [
   { name: "Testimonials", link: "#testimonials" },
 ];
 
-export { words, counterItems, navLinks };
+const logoIconsList = [
+  {
+    imgPath: "/images/Yuresh.png",
+    name: "logo1",
+  },
+  {
+    imgPath: "/images/Yuresh.png",
+    name: "logo2",
+  },
+  {
+    imgPath: "/images/Yuresh.png",
+    name: "logo3",
+  },
+  {
+    imgPath: "/images/Yuresh.png",
+    name: "logo4",
+  },
+  {
+    imgPath: "/images/Yuresh.png",
+    name: "logo5",
+  },
+  {
+    imgPath: "/images/Yuresh.png",
+    name: "logo6",
+  },
+  {
+    imgPath: "/images/Yuresh.png",
+    name: "logo7",
+  },
+  {
+    imgPath: "/images/Yuresh.png",
+    name: "logo8",
+  },
+  {
+    imgPath: "/images/Yuresh.png",
+    name: "logo9",
+  },
+  {
+    imgPath: "/images/Yuresh.png",
+    name: "logo10",
+  },
+  {
+    imgPath: "/images/Yuresh.png",
+    name: "logo11",
+  },
+];
+
+export { words, counterItems, navLinks, logoIconsList };
