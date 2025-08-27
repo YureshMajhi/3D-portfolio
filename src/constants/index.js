@@ -9,10 +9,17 @@ const words = [
   { text: "Code", imgPath: "/images/code.png" },
 ];
 const counterItems = [
-  { value: 4, suffix: "+", label: "Months of Practical Experience" },
-  { value: 4, suffix: "+", label: "Completed Projects During Internship" },
+  { value: 6, suffix: "+", label: "Months of Practical Experience" },
+  { value: 8, suffix: "+", label: "Completed Projects" },
   { value: 2, suffix: "", label: "Company Worked With (Paisa Experience Pvt. Ltd.)" },
   { value: 100, suffix: "%", label: "Commitment to Learning & Growth" },
 ];
 
-export { words, counterItems };
+const navLinks = [
+  { name: "Work", link: "#work" },
+  { name: "Experience", link: "#experience" },
+  { name: "Skills", link: "#skills" },
+  { name: "Testimonials", link: "#testimonials" },
+];
+
+export { words, counterItems, navLinks };
