@@ -69,4 +69,27 @@ const logoIconsList = [
   },
 ];
 
-export { words, counterItems, navLinks, logoIconsList };
+const abilities = [
+  {
+    imgPath: "/images/code.png",
+    title: "Full-Stack Expertise",
+    desc: "Building efficient and scalable solutions across frontend and backend using React, Node.js, and MongoDB.",
+  },
+  {
+    imgPath: "/images/innovation.png",
+    title: "Adaptability",
+    desc: "Quickly adapting to new technologies and diverse codebases to deliver effective results.",
+  },
+  {
+    imgPath: "/images/performance.png",
+    title: "Clean & Responsive UI",
+    desc: "Designing responsive, user-friendly web apps using Material UI, Redux, and Tailwind CSS.",
+  },
+  {
+    imgPath: "/images/time.png",
+    title: "On-Time Delivery",
+    desc: "Completing tasks and projects efficiently without compromising on quality.",
+  },
+];
+
+export { words, counterItems, navLinks, logoIconsList, abilities };
