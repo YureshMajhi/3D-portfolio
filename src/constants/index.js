@@ -97,7 +97,7 @@ const expCards = [
     review:
       "Yuresh quickly picked up new skills during his internship and showed strong problem-solving abilities. He adapted well to the team and contributed to real-world projects.",
     imgPath: "/images/intern.png",
-    logoPath: "/images/paisa.png",
+    logoPath: "/images/internlogo.png",
     title: "Software Development Intern",
     date: "Jan 2025 - Mar 2025",
     responsibilities: [
