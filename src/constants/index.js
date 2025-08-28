@@ -92,4 +92,46 @@ const abilities = [
   },
 ];
 
-export { words, counterItems, navLinks, logoIconsList, abilities };
+const expCards = [
+  {
+    review:
+      "Yuresh quickly picked up new skills during his internship and showed strong problem-solving abilities. He adapted well to the team and contributed to real-world projects.",
+    imgPath: "/images/intern.png",
+    logoPath: "/images/logo1.png",
+    title: "Software Development Intern",
+    date: "Jan 2025 - Mar 2025",
+    responsibilities: [
+      "Assisted in building frontend components using React and Material UI.",
+      "Learned and applied Git/GitHub for version control in collaborative projects.",
+      "Gained hands-on experience with basic backend logic using Node.js.",
+    ],
+  },
+  {
+    review:
+      "As a Frontend Developer at Paisa, Yuresh delivered clean, responsive, and efficient web applications. His ability to adapt to large codebases made him a valuable contributor.",
+    imgPath: "/images/frontend.png",
+    logoPath: "/images/logo2.png",
+    title: "Frontend Developer",
+    date: "Mar 2025 - Present",
+    responsibilities: [
+      "Developed menu themes with Material UI and Redux Toolkit integrated into billing systems.",
+      "Enhanced mobile responsiveness across web apps for a seamless user experience.",
+      "Migrated large-scale applications from CRA to Vite, improving performance and maintainability.",
+    ],
+  },
+  {
+    review:
+      "Yuresh took ownership of both frontend and backend tasks, demonstrating his full-stack capabilities. His solutions added significant value to ongoing projects.",
+    imgPath: "/images/fullstack.png",
+    logoPath: "/images/logo3.png",
+    title: "Full Stack Developer",
+    date: "July 2025 - Present",
+    responsibilities: [
+      "Created an automated quotation system with backend implementation in Node.js and MongoDB.",
+      "Wrote custom scripts to manage and manipulate MongoDB databases efficiently.",
+      "Adapted quickly to diverse and complex codebases, contributing across the stack.",
+    ],
+  },
+];
+
+export { words, counterItems, navLinks, logoIconsList, abilities, expCards };
