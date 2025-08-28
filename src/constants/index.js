@@ -97,7 +97,7 @@ const expCards = [
     review:
       "Yuresh quickly picked up new skills during his internship and showed strong problem-solving abilities. He adapted well to the team and contributed to real-world projects.",
     imgPath: "/images/intern.png",
-    logoPath: "/images/logo1.png",
+    logoPath: "/images/paisa.png",
     title: "Software Development Intern",
     date: "Jan 2025 - Mar 2025",
     responsibilities: [
@@ -110,7 +110,7 @@ const expCards = [
     review:
       "As a Frontend Developer at Paisa, Yuresh delivered clean, responsive, and efficient web applications. His ability to adapt to large codebases made him a valuable contributor.",
     imgPath: "/images/frontend.png",
-    logoPath: "/images/logo2.png",
+    logoPath: "/images/paisa.png",
     title: "Frontend Developer",
     date: "Mar 2025 - Present",
     responsibilities: [
@@ -123,7 +123,7 @@ const expCards = [
     review:
       "Yuresh took ownership of both frontend and backend tasks, demonstrating his full-stack capabilities. His solutions added significant value to ongoing projects.",
     imgPath: "/images/fullstack.png",
-    logoPath: "/images/logo3.png",
+    logoPath: "/images/paisa.png",
     title: "Full Stack Developer",
     date: "July 2025 - Present",
     responsibilities: [
