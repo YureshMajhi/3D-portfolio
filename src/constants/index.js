@@ -166,21 +166,21 @@ const testimonials = [
     name: "Omkar Shrestha",
     mentions: "@omkarshrestha",
     review:
-      "Yuresh has been a valuable part of our team. His ability to learn quickly, adapt to challenges, and deliver results has impressed us all. He consistently shows professionalism and commitment to his work.",
+      "Yuresh has been a wonderful asset for us. Rapid learning, adaptability towards challenges, and outcomes have impressed us all. Professionalism and dedication are always reflected by him.",
     imgPath: "/images/omkar.jpeg",
   },
   {
     name: "Bijay Ghimire",
     mentions: "@bijayghimire",
     review:
-      "I had the opportunity to directly supervise Yuresh, and I can confidently say he has excellent technical skills and a strong problem-solving mindset. He is quick to adapt to new codebases and always delivers quality results.",
+      "I was able to personally work with Yuresh, and I can truly report that he has very good technical expertise and a problem-solving attitude. He also adapts well to a new code base and consistently produces quality output.",
     imgPath: "/images/bijay.jpeg",
   },
   {
     name: "Arbin Khadka",
     mentions: "@arbinkhadka",
     review:
-      "Working with Yuresh was a smooth experience. He developed solutions tailored to our needs and was always open to feedback. His ability to handle both frontend and backend tasks made the project a success.",
+      "The collaboration was smooth with Yuresh. He gave us customized solutions and was always there ready for any kind of feedback. His knowledge of frontend and backend enabled him to deliver a successful project.",
     imgPath: "/images/arbin.jpeg",
   },
 ];
