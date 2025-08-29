@@ -134,4 +134,39 @@ const expCards = [
   },
 ];
 
-export { words, counterItems, navLinks, logoIconsList, abilities, expCards };
+const techStackIcons = [
+  {
+    name: "React Developer",
+    modelPath: "/models/react.glb",
+    scale: 1,
+    rotation: [0, 0, 0],
+  },
+  {
+    name: "Backend Developer",
+    modelPath: "/models/node.glb",
+    scale: 5,
+    rotation: [0, -Math.PI / 2, 0],
+  },
+  {
+    name: "Interactive Developer",
+    modelPath: "/models/three.js.glb",
+    scale: 0.05,
+    rotation: [0, 0, 0],
+  },
+  {
+    name: "Github",
+    modelPath: "/models/github.glb",
+    scale: 2,
+    rotation: [0, 0, 0],
+  },
+];
+
+export {
+  words,
+  counterItems,
+  navLinks,
+  logoIconsList,
+  abilities,
+  expCards,
+  techStackIcons,
+};
