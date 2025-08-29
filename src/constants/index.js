@@ -161,6 +161,30 @@ const techStackIcons = [
   },
 ];
 
+const testimonials = [
+  {
+    name: "Omkar Shrestha",
+    mentions: "@omkarshrestha",
+    review:
+      "Yuresh has been a valuable part of our team. His ability to learn quickly, adapt to challenges, and deliver results has impressed us all. He consistently shows professionalism and commitment to his work.",
+    imgPath: "/images/omkar.jpeg",
+  },
+  {
+    name: "Bijay Ghimire",
+    mentions: "@bijayghimire",
+    review:
+      "I had the opportunity to directly supervise Yuresh, and I can confidently say he has excellent technical skills and a strong problem-solving mindset. He is quick to adapt to new codebases and always delivers quality results.",
+    imgPath: "/images/bijay.jpeg",
+  },
+  {
+    name: "Arbin Khadka",
+    mentions: "@arbinkhadka",
+    review:
+      "Working with Yuresh was a smooth experience. He developed solutions tailored to our needs and was always open to feedback. His ability to handle both frontend and backend tasks made the project a success.",
+    imgPath: "/images/arbin.jpeg",
+  },
+];
+
 export {
   words,
   counterItems,
@@ -169,4 +193,5 @@ export {
   abilities,
   expCards,
   techStackIcons,
+  testimonials,
 };
