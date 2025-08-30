@@ -7,6 +7,7 @@ import ShowcaseSection from "./sections/ShowcaseSection";
 import ExperienceSection from "./sections/ExperienceSection";
 import TechStack from "./sections/TechStack";
 import Testimonials from "./sections/Testimonials";
+import Contact from "./sections/Contact";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <ExperienceSection />
         <TechStack />
         <Testimonials />
+        <Contact />
       </main>
     </>
   );
