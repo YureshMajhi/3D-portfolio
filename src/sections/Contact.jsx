@@ -1,6 +1,7 @@
 import React, { useRef, useState } from "react";
 import TitleHeader from "../components/TitleHeader";
 import ContactExperience from "../components/ContactExperience";
+import emailjs from "@emailjs/browser";
 
 const Contact = () => {
   const formRef = useRef(null);
@@ -19,9 +20,24 @@ const Contact = () => {
     });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     setLoading(true);
+
+    try {
+      await emailjs.sendForm(
+        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        formRef.current,
+        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+      );
+
+      setForm({ name: "", email: "", message: "" });
+    } catch (err) {
+      console.log(err);
+    } finally {
+      setLoading(false);
+    }
   };
   return (
     <section id="contact" className="flex-center section-padding">
@@ -31,7 +47,11 @@ const Contact = () => {
         <div className="mt-16 grid-12-cols">
           <div className="xl:col-span-5">
             <div className="flex-center card-border rounded-xl p-10">
-              <form onSubmit={handleSubmit} className="w-full flex flex-col gap-7">
+              <form
+                onSubmit={handleSubmit}
+                className="w-full flex flex-col gap-7"
+                ref={formRef}
+              >
                 <div>
                   <label htmlFor="name">Your name</label>
                   <input
@@ -70,7 +90,7 @@ const Contact = () => {
                   />
                 </div>
 
-                <button type="submit">
+                <button type="submit" disabled={loading}>
                   <div className="cta-button group">
                     <div className="bg-circle" />
                     <p className="text">{loading ? "Sending..." : "Send Message"}</p>

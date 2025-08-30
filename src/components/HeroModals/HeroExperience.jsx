@@ -21,7 +21,7 @@ const HeroExperience = () => {
           minDistance={3}
           minPolarAngle={Math.PI / 5}
           maxPolarAngle={Math.PI / 2}
-          enableZoom={isTablet}
+          enableZoom={false}
         />
         <Desktop />
       </Canvas>
