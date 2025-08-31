@@ -65,7 +65,7 @@ const ShowcaseSection = () => {
                 <img src="/images/mapp.png" alt="Movie App" />
               </div>
               <h2>
-                On-Demand Rides Made Simple with a Powerful, User-Friendly App calles Ride
+                Unlimited Movies, Seamlessly Streamed with a Powerful, User-Friendly App.
               </h2>
             </div>
           </div>
