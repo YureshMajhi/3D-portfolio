@@ -28,27 +28,27 @@ const logoIconsList = [
     name: "logo1",
   },
   {
-    imgPath: "/images/Yuresh.png",
+    imgPath: "/images/express-logo-name.png",
     name: "logo2",
   },
   {
-    imgPath: "/images/Yuresh.png",
+    imgPath: "/images/material-logo-name.png",
     name: "logo3",
   },
   {
-    imgPath: "/images/Yuresh.png",
+    imgPath: "/images/mongodb-logo-name.png",
     name: "logo4",
   },
   {
-    imgPath: "/images/Yuresh.png",
+    imgPath: "/images/next-logo-name.png",
     name: "logo5",
   },
   {
-    imgPath: "/images/Yuresh.png",
+    imgPath: "/images/node-logo-name.png",
     name: "logo6",
   },
   {
-    imgPath: "/images/Yuresh.png",
+    imgPath: "/images/react-logo-name.png",
     name: "logo7",
   },
   {
@@ -56,15 +56,15 @@ const logoIconsList = [
     name: "logo8",
   },
   {
-    imgPath: "/images/Yuresh.png",
+    imgPath: "/images/express-logo-name.png",
     name: "logo9",
   },
   {
-    imgPath: "/images/Yuresh.png",
+    imgPath: "/images/material-logo-name.png",
     name: "logo10",
   },
   {
-    imgPath: "/images/Yuresh.png",
+    imgPath: "/images/mongodb-logo-name.png",
     name: "logo11",
   },
 ];

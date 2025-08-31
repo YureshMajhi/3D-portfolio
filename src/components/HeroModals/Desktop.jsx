@@ -9,7 +9,7 @@ const Desktop = () => {
 
   return (
     <>
-      <Float speed={2.5} rotationIntensity={0.4} floatIntensity={0.9}>
+      <Float speed={2.5}>
         <group position={[2, -2, isTablet ? -3 : -8]} ref={desktopRef}>
           <ProgrammerDesktop />
         </group>
