@@ -185,6 +185,29 @@ const testimonials = [
   },
 ];
 
+const socialImgs = [
+  {
+    name: "facebook",
+    imgPath: "/images/facebook.png",
+    url: "https://www.facebook.com/Yurush.myo",
+  },
+  {
+    name: "instagram",
+    imgPath: "/images/instagram.png",
+    url: "/",
+  },
+  {
+    name: "twitter",
+    imgPath: "/images/twitter.png",
+    url: "/",
+  },
+  {
+    name: "linkedin",
+    imgPath: "/images/linkedin.png",
+    url: "https://www.linkedin.com/in/yuresh-majhi-9206b61a1/",
+  },
+];
+
 export {
   words,
   counterItems,
@@ -194,4 +217,5 @@ export {
   expCards,
   techStackIcons,
   testimonials,
+  socialImgs,
 };
