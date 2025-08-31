@@ -85,7 +85,7 @@ const Hero = () => {
           </div>
         </header>
 
-        <figure>
+        <figure className="cursor-grab">
           <div className="hero-3d-layout">
             <HeroExperience />
           </div>
