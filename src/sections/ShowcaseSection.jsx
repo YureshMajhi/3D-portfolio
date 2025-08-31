@@ -38,27 +38,31 @@ const ShowcaseSection = () => {
       <div className="w-full">
         <div className="showcaselayout">
           {/* left */}
-          <div className="first-project-wrapper" ref={project1Ref}>
+          <a
+            href="https://yurush-store.netlify.app/"
+            target="_blank"
+            className="first-project-wrapper relative cursor-pointer"
+            ref={project1Ref}
+          >
             <div className="image-wrapper">
-              <img src="/images/daraz.jpg" alt="Ride" />
+              <img src="/images/eapp1.png" alt="ecommerce app" />
             </div>
             <div className="text-content">
               <h2>
                 Online Shopping Made Simple with a Powerful, User-Friendly App called
-                Daraz
+                Yurush Store
               </h2>
               <p className="text-white-50 md:text-xl">
-                An app built with React Native, Expo, & Tailwindcss for a fast,
-                user-friendly experience.
+                An app built with Vite & Tailwindcss for a fast, user-friendly experience.
               </p>
             </div>
-          </div>
+          </a>
 
           {/* right */}
           <div className="project-list-wrapper overflow-hidden" ref={project2Ref}>
             <div className="project">
               <div className="image-wrapper bg-[#ffefdb]">
-                <img src="/images/indrive.jpg" alt="Library Management" />
+                <img src="/images/mapp.png" alt="Movie App" />
               </div>
               <h2>
                 On-Demand Rides Made Simple with a Powerful, User-Friendly App calles Ride
