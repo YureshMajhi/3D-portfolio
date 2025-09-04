@@ -41,7 +41,7 @@ const ShowcaseSection = () => {
           <a
             href="https://yurush-store.netlify.app/"
             target="_blank"
-            className="first-project-wrapper relative cursor-pointer"
+            className="first-project-wrapper relative cursor-pointer relative z-10"
             ref={project1Ref}
           >
             <div className="image-wrapper">
@@ -59,7 +59,12 @@ const ShowcaseSection = () => {
           </a>
 
           {/* right */}
-          <div className="project-list-wrapper overflow-hidden" ref={project2Ref}>
+          <a
+            href="https://movie-streaming-platform.vercel.app/"
+            target="_blank"
+            className="project-list-wrapper overflow-hidden block relative z-50"
+            ref={project2Ref}
+          >
             <div className="project">
               <div className="image-wrapper bg-[#ffefdb]">
                 <img src="/images/mapp.png" alt="Movie App" />
@@ -68,8 +73,8 @@ const ShowcaseSection = () => {
                 Unlimited Movies, Seamlessly Streamed with a Powerful, User-Friendly App.
               </h2>
             </div>
-          </div>
-          <div className="project-list-wrapper overflow-hidden" ref={project3Ref}>
+          </a>
+          {/* <div className="project-list-wrapper overflow-hidden" ref={project3Ref}>
             <div className="project">
               <div className="image-wrapper bg-[#ffe7eb]">
                 <img src="/images/shoes.jpg" alt="YC Directory" />
@@ -78,9 +83,9 @@ const ShowcaseSection = () => {
                 Step Into Style with a Smooth, User-Friendly App Made Just for Shoe Lovers
               </h2>
             </div>
-          </div>
+          </div> */}
         </div>
-      </div>{" "}
+      </div>
     </section>
   );
 };
