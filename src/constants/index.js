@@ -32,8 +32,16 @@ const logoIconsList = [
     name: "logo2",
   },
   {
+    imgPath: "/images/firebase-logo-name.png",
+    name: "logo13",
+  },
+  {
     imgPath: "/images/material-logo-name.png",
     name: "logo3",
+  },
+  {
+    imgPath: "/images/gsap-logo-name.png",
+    name: "logo14",
   },
   {
     imgPath: "/images/mongodb-logo-name.png",
@@ -51,6 +59,11 @@ const logoIconsList = [
     imgPath: "/images/react-logo-name.png",
     name: "logo7",
   },
+
+  {
+    imgPath: "/images/three-js-name.png",
+    name: "logo15",
+  },
   {
     imgPath: "/images/Yuresh.png",
     name: "logo8",
@@ -60,12 +73,25 @@ const logoIconsList = [
     name: "logo9",
   },
   {
+    imgPath: "/images/firebase-logo-name.png",
+    name: "logo12",
+  },
+  {
     imgPath: "/images/material-logo-name.png",
     name: "logo10",
   },
   {
+    imgPath: "/images/gsap-logo-name.png",
+    name: "logo12",
+  },
+  {
     imgPath: "/images/mongodb-logo-name.png",
     name: "logo11",
+  },
+
+  {
+    imgPath: "/images/three-js-name.png",
+    name: "logo16",
   },
 ];
 
