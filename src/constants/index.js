@@ -9,8 +9,8 @@ const words = [
   { text: "Code", imgPath: "/images/code.png" },
 ];
 const counterItems = [
-  { value: 6, suffix: "+", label: "Months of Practical Experience" },
-  { value: 8, suffix: "+", label: "Completed Projects" },
+  { value: 1, suffix: "+", label: "Years of Practical Experience" },
+  { value: 12, suffix: "+", label: "Completed Projects" },
   { value: 2, suffix: "", label: "Company Worked With (Paisa Experience Pvt. Ltd.)" },
   { value: 100, suffix: "%", label: "Commitment to Learning & Growth" },
 ];
@@ -124,12 +124,12 @@ const expCards = [
       "Yuresh quickly picked up new skills during his internship and showed strong problem-solving abilities. He adapted well to the team and contributed to real-world projects.",
     imgPath: "/images/intern.png",
     logoPath: "/images/internlogo.png",
-    title: "Software Development Intern",
+    title: "Frontend Engineer",
     date: "Jan 2025 - Mar 2025",
     responsibilities: [
-      "Assisted in building frontend components using React and Material UI.",
-      "Learned and applied Git/GitHub for version control in collaborative projects.",
-      "Gained hands-on experience with basic backend logic using Node.js.",
+      "Built a Material UI library with 20+ components, ensuring design consistency and reducing bugs.",
+      "Architected real-time data sync using Socket.io and Redux Toolkit for dashboard views.",
+      "Implemented RTK Query for automated caching, cutting down unnecessary API calls.",
     ],
   },
   {
@@ -137,12 +137,13 @@ const expCards = [
       "As a Frontend Developer at Paisa, Yuresh delivered clean, responsive, and efficient web applications. His ability to adapt to large codebases made him a valuable contributor.",
     imgPath: "/images/frontend.png",
     logoPath: "/images/paisa.png",
-    title: "Frontend Developer",
+    title: "Software Performance Specialist",
     date: "Mar 2025 - Present",
     responsibilities: [
-      "Developed menu themes with Material UI and Redux Toolkit integrated into billing systems.",
-      "Enhanced mobile responsiveness across web apps for a seamless user experience.",
-      "Migrated large-scale applications from CRA to Vite, improving performance and maintainability.",
+      "Migrated legacy CRA projects to Vite, cutting dev server start times from 40s to 3s.",
+      "Boosted frame rates and reduced DOM load by 60% via Virtualization and Intersection Observer.",
+      "Optimized Core Web Vitals and LCP using React.lazy and dynamic code splitting.",
+      "Eliminated dead code and unused dependencies to significantly shrink bundle sizes.",
     ],
   },
   {
@@ -150,12 +151,13 @@ const expCards = [
       "Yuresh took ownership of both frontend and backend tasks, demonstrating his full-stack capabilities. His solutions added significant value to ongoing projects.",
     imgPath: "/images/fullstack.png",
     logoPath: "/images/paisa.png",
-    title: "Full Stack Developer",
+    title: "Full Stack Systems Developer",
     date: "July 2025 - Present",
     responsibilities: [
-      "Created an automated quotation system with backend implementation in Node.js and MongoDB.",
-      "Wrote custom scripts to manage and manipulate MongoDB databases efficiently.",
-      "Adapted quickly to diverse and complex codebases, contributing across the stack.",
+      "Integrated Google Maps API for live rider tracking and manual location syncing.",
+      "Developed end-to-end Node.js/MongoDB APIs for order status and notification systems.",
+      "Designed database schemas for real-time location updates and secure authentication.",
+      "Performed deep manual testing to ensure app stability after major architectural shifts.",
     ],
   },
 ];
