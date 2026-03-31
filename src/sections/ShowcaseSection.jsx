@@ -29,7 +29,7 @@ const ShowcaseSection = () => {
             trigger: card,
             start: "top bottom -= 100",
           },
-        }
+        },
       );
     });
   }, []);
@@ -39,22 +39,17 @@ const ShowcaseSection = () => {
         <div className="showcaselayout">
           {/* left */}
           <a
-            href="https://yurush-store.netlify.app/"
+            href="https://yuresh-social.vercel.app/"
             target="_blank"
-            className="first-project-wrapper relative cursor-pointer relative z-10"
+            className="first-project-wrapper relative cursor-pointer z-10"
             ref={project1Ref}
           >
             <div className="image-wrapper">
               <img src="/images/eapp1.png" alt="ecommerce app" />
             </div>
             <div className="text-content">
-              <h2>
-                Online Shopping Made Simple with a Powerful, User-Friendly App called
-                Yurush Store
-              </h2>
-              <p className="text-white-50 md:text-xl">
-                An app built with Vite & Tailwindcss for a fast, user-friendly experience.
-              </p>
+              <h2>A Modern Social Media App for Connecting, Sharing, and Messaging</h2>
+              <p className="text-white-50 md:text-xl">Built with Next.js & Firebase.</p>
             </div>
           </a>
 
